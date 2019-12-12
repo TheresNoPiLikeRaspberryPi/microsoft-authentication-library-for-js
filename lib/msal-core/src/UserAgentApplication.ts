@@ -333,6 +333,8 @@ export class UserAgentApplication {
    * @param {@link (AuthenticationParameters:type)}
    */
   loginRedirect(request?: AuthenticationParameters): void {
+console.log('loginRedirect'); // DOK
+debugger; // DOK
     // Throw error if callbacks are not set before redirect
     if (!this.redirectCallbacksSet) {
       throw ClientConfigurationError.createRedirectCallbacksNotSetError();
