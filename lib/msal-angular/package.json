@@ -24,7 +24,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "msal": "0.2.1",
+    "msal": "https://github.com/TheresNoPiLikeRaspberryPi/microsoft-authentication-library-for-js/tarball/master",
     "tslib": "1.7.1"
   },
   "devDependencies": {
